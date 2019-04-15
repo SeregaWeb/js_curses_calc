@@ -1,0 +1,21 @@
+*{
+    font-family:monospace, sans-serif , Arial, Helvetica;
+    font-weight: 900;
+    background-color: black;
+    color: #38eb38;
+    font-size: 22px;
+   
+}
+.terminal span{
+    animation-duration: 1s;
+    animation-name: animaha;
+    animation-iteration-count: infinite;
+}
+@keyframes animaha {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
